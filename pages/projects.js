@@ -14,9 +14,9 @@ export default function Projects({ projects }) {
           <meta name="description" content="Eden의 개발블로그" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <h1 className="text-4xl font-bold sm:text-6xl">
-          담당한 프로젝트 :<span className="pl-4 text-blue-500">{projects.results.length}</span>
-        </h1>
+        {/* <h1 className="text-4xl font-bold sm:text-6xl">
+          담당한 프로젝트 :<span className="pl-4 text-blue-500">{projects.results.length}개</span>
+        </h1> */}
 
         <div className="grid grid-cols-1 md:grid-cols-2 py-12 m-4 gap-8 ">
           {projects.results.map(aProject => (
